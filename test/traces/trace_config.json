@@ -1,0 +1,57 @@
+[
+    {
+        "trace_file": "damn.trace",
+        "num_operations": 20000,
+        "distribution": "normal",
+        "params": {
+            "mu": 512,
+            "sigma": 256
+        },
+        "seed": 336,
+        "probabilities": [0.4, 0.3, 0.3]
+    },
+    {
+        "trace_file": "easy.trace",
+        "num_operations": 10000,
+        "distribution": "uniform",
+        "params": {
+            "a": 1,
+            "b": 1024
+        },
+        "seed": 330,
+        "probabilities": [0.7, 0.15, 0.15]
+    },
+    {
+        "trace_file": "malloc_only.trace",
+        "num_operations": 100,
+        "distribution": "uniform",
+        "params": {
+            "a": 4096,
+            "b": 100
+        },
+        "seed": 334,
+        "probabilities": [1.0, 0, 0]
+    },
+    {
+        "trace_file": "huge.trace",
+        "num_operations": 20000,
+        "distribution": "lognormal",
+        "params": {
+            "mu": 4,
+            "sigma": 1.5
+        },
+        "seed": 69,
+        "probabilities": [0.55, 0.25, 0.2]
+    },
+    {
+        "trace_file": "huge2.trace",
+        "num_operations": 20000,
+        "distribution": "lognormal",
+        "params": {
+            "mu": 4,
+            "sigma": 1.5
+        },
+        "seed": 520,
+        "probabilities": [0.65, 0.15, 0.2]
+    }
+]
